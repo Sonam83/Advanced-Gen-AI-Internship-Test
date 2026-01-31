@@ -1,15 +1,13 @@
-# Advanced-Gen-AI-Internship-Test
-
 # Food Orders Data Analysis
 
-## Overview
+## Overview :
 This repository contains a data analysis project based on food orders. The analysis combines multiple datasets (`orders.csv`, `users.json`, and `restaurants.sql`) to generate insights on user behavior, restaurant performance, cuisine trends, and revenue patterns.  
 
 The project focuses on **merging datasets**, calculating **total and average order values**, and identifying **top-performing restaurants, cuisines, and cities**.
 
 ---
 
-## Datasets
+## Datasets :
 
 1. **orders.csv**  
    - Contains order-level information including `order_id`, `user_id`, `restaurant_id`, `total_amount`, and `order_date`.  
@@ -26,7 +24,7 @@ The project focuses on **merging datasets**, calculating **total and average ord
 
 ---
 
-## Project Objectives
+## Project Objectives :
 
 - Merge multiple datasets using **Pandas `merge()` function** to combine order, user, and restaurant information.  
 - Analyze **user behavior** including:
@@ -46,7 +44,7 @@ The project focuses on **merging datasets**, calculating **total and average ord
 
 ---
 
-## Methodology
+## Methodology :
 
 1. **Data Loading**  
    - `orders.csv` loaded using `pandas.read_csv()`  
@@ -71,7 +69,7 @@ The project focuses on **merging datasets**, calculating **total and average ord
 
 ---
 
-## Key Functions Used
+## Key Functions Used :
 
 - `pandas.read_csv()`, `pandas.read_json()`, `pd.read_sql()`  
 - `merge()` for joining datasets  
@@ -82,8 +80,4 @@ The project focuses on **merging datasets**, calculating **total and average ord
 
 ---
 
-## How to Run
 
-1. Clone this repository:
-```bash
-git clone <your-repo-url>
